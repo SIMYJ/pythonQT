@@ -31,7 +31,7 @@ QT정의 : https://ko.wikipedia.org/wiki/Qt_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A
 
 ## 2. 개발환경
 
-### 1. Qt Designer
+### 1). Qt Designer
 - PyQt는 다른 Framework들과 다르게 시각적으로도 괜찮은 디자인을 보여주면서 **Qt Designer**라는 프로그램을 이용하여 프로그램을 손쉽게 설계할 수 있다는 장점이 있습니다.
 
 
@@ -44,7 +44,7 @@ QT정의 : https://ko.wikipedia.org/wiki/Qt_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A
 리눅스 파이참 설치 : https://enant.tistory.com/10
 윈도우 파이참 설치 : https://www.crocus.co.kr/1659
 
-리눅스 파이참 실행 명령어 : pycharm-community
+리눅스 파이참 실행 명령어 : $pycharm-community
 
 ```
 ### 3). 아나콘다(Ananconda)
@@ -53,7 +53,7 @@ QT정의 : https://ko.wikipedia.org/wiki/Qt_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A
 - 데이터사이언스(수학과 과학 분야)에서 사용되는 여러 패키지(넘파이,사이파이)들을 가지고 있는 종합적인 플랫폼( 패키지를 묶어 놓은 파이썬 배포판)
 
 
-### 3). 프로젝트 가상환경
+### 4). 프로젝트 가상환경
 #### Python에서의 가상 환경이란?
 파이썬에서는 한 라이브러리에 대해 하나의 버전만 설치가 가능하다.여러개의 프로젝트를 진행하게 되면 이는 문제가 된다. 작업을 바꿀때마다 다른 버전의 라이브러리를 설치해야된다..이를 방지하기 위한 격리된 독립적인 가상환경을 제공한다.일반적으로 프로젝트마다 다른 하나의 가상환경을 생성한 후 작업을 시작한다.
 #### 가상환경의 대표적인 모듈은 3가지
@@ -62,5 +62,6 @@ QT정의 : https://ko.wikipedia.org/wiki/Qt_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A
 - virtualenv : Python 2 버전부터 사용해오던 가상환경 라이브러리, Python 3에서도 사용가능
 - conda : Anaconda Python을 설치했을 시 사용할 수있는 모듈
 - pyenv : pyenv의 경우 Python Version Manger임과 동시에 가상환경 기능을 플러그인 형태로 제공      
+
 파이썬 가상환경 : https://wikidocs.net/16402
 
