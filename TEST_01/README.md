@@ -24,11 +24,11 @@
 /0.KD_hackathon
 	/Preprocessing-main
 		/sample
-		/gtFine
-			/train
-				/LC_AP_37607046_004_1024.png 대량
-			/val
-				/LC_AP_37714010_023_1024.png 소량
+			/gtFine
+				/train
+					/LC_AP_37607046_004_1024.png 대량
+				/val
+					/LC_AP_37714010_023_1024.png 소량
 		/make_label
 			/kor_buildings
 				/전치리된 파일.png
