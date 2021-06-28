@@ -1,13 +1,14 @@
 # PythonQT-TEST01
 
 
-##위키독스 참조 소스
+## 위키독스 참조 소스
  - [02.15 Pixmap](https://github.com/SIMYJ/pythonQT/tree/syj/%5B%EC%9C%84%ED%82%A4%EB%8F%85%EC%8A%A4%5DPyQt5_for_Beginner/02.15%20Pixmap) 
  - [02.18 List Widget](https://github.com/SIMYJ/pythonQT/tree/syj/%5B%EC%9C%84%ED%82%A4%EB%8F%85%EC%8A%A4%5DPyQt5_for_Beginner/02.18%20List%20Widget)
 
 ## UI 
-<img src = "https://i.imgur.com/vc4IHnG.png" width="500px">
+<img src = "https://i.imgur.com/vc4IHnG.png" width="500px">     
 
+<img src = "https://i.imgur.com/C4yb6El.gif" width="500px">
 
 
 
