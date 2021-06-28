@@ -5,6 +5,9 @@
  - [02.15 Pixmap](https://github.com/SIMYJ/pythonQT/tree/syj/%5B%EC%9C%84%ED%82%A4%EB%8F%85%EC%8A%A4%5DPyQt5_for_Beginner/02.15%20Pixmap) 
  - [02.18 List Widget](https://github.com/SIMYJ/pythonQT/tree/syj/%5B%EC%9C%84%ED%82%A4%EB%8F%85%EC%8A%A4%5DPyQt5_for_Beginner/02.18%20List%20Widget)
 
+## 간략한 설명
+- 그레이스케일 이미지에서 roads,buildings 따로 추출해서 저장하고, 각 이미지 화면에 출력한다.
+
 ## UI 
 <img src = "https://i.imgur.com/vc4IHnG.png" width="500px">     
 
