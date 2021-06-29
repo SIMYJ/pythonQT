@@ -71,12 +71,12 @@ class WindowClass(QMainWindow, form_class) :
         print("save_dir_building_path: {}".format(os.path.isfile(save_dir_building_path)))
         print("save_dir_road_path: {}".format(os.path.isfile(save_dir_road_path)))
 
-        if(os.path.isabs(save_dir_building_path)):
+        if(os.path.isfile(save_dir_building_path)):
             png_path = save_dir_building_path
             self.qPixmapVar02.load(png_path)
             self.label_picture02.setPixmap(self.qPixmapVar02)
 
-        elif(os.path.isabs(save_dir_road_path)):
+        elif(os.path.isfile(save_dir_road_path)):
             png_path = save_dir_road_path
             self.qPixmapVar02.load(png_path)
             self.label_picture02.setPixmap(self.qPixmapVar02)
