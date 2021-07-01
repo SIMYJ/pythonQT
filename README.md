@@ -9,8 +9,10 @@
 
 ```
 리눅스 PythonQT(PyQt) 설치
-pip3 install pyqt5          : PyQt5 설치 
-pip3 install pyqt5-tools    : qtdesigner 설치
+$ pip3 install pyqt5  
+$ sudo apt install python3-pyqt5  
+$ sudo apt install pyqt5-dev-tools
+$ sudo apt install qttools5-dev-tools
 
 https://reason1241.tistory.com/32
 
