@@ -5,7 +5,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5 import uic
 
-from TEST.Preprocessing import Preprocessing
+from TEST_01.making_label import Preprocessing
 
 form_class = uic.loadUiType("listwidgetTest.ui")[0]
 
@@ -84,15 +84,8 @@ class WindowClass(QMainWindow, form_class) :
             print("전치리된 이미지 없다.")
             self.label_picture02.setText("전치리된 이미지 없다.")
 
-
-
-
-
-
     def chkCurrentItemChanged(self) :
         print("Current Row : " + str(self.listWidget_Test.currentRow()))
-
-
 
     #항목을 추가, 삽입하는 함수들
     def addListWidget(self) :
