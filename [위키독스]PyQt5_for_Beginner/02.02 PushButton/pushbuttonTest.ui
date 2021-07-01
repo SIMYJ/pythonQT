@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>205</height>
+    <width>430</width>
+    <height>222</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>1000</number>
   </property>
   <widget class="QPushButton" name="btn_1">
    <property name="geometry">
@@ -21,6 +24,9 @@
      <width>113</width>
      <height>32</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;이것은버튼!이로시다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="text">
     <string>Button1</string>
@@ -34,6 +40,9 @@
      <width>113</width>
      <height>32</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>이것은버튼이로시다.</string>
    </property>
    <property name="text">
     <string>Button2</string>
