@@ -1,5 +1,3 @@
-# Deeplabv3plus
-
 
 ## QT 관련 패키지
 - requirements01.txt파일
@@ -14,6 +12,9 @@ PyQt5-Qt5
 PyQt5-sip               
 pyqt5-tools     
 
+```
+```
+pip install -r requirements01.txt
 ```
 
 
@@ -32,9 +33,13 @@ visdom
 opencv-python     
 
 ```
+```
+pip install -r requirements02.txt
+```
 
-#openCV 다운로드
-##리눅스 환경일 때(if you are on linux you can do :
+
+# openCV 다운로드
+## 리눅스 환경일 때(if you are on linux you can do :
  
 ```
 pip install opencv-python
