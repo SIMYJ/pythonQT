@@ -40,7 +40,7 @@
 	/TEST
 		/listwidgetTest.py
 		/listwidgetTest.ui
-		/Preprocessing.py
+		/making_label.py
 ```
 
 
