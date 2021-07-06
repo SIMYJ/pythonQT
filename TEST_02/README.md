@@ -22,7 +22,7 @@
 ```txt
 /0.PythonQT_STUDY
 	/json2png_sample
-		/building_and_road_label_json_val # 빌딩과 로드이미지 이 폴더에 넣음(아래 2개의 파일을)
+		/building_and_road_label_json_val # 빌딩과 로드 json파일 이 폴더에 넣음(아래 2개의 파일을)
 		/building_label_and_json_val      # 사용안함
 		/road_label_json_val              # 사용안함
 		/building_and_road_save_png
@@ -35,6 +35,11 @@
 		/listwidgetTest.py        # UI구현 코드
 		/making_label.py          # 사용안함(전 TEST_01코드)
 ```
+
+## 코드에 대한 생각
+- 현재는 하나의 클래스에 대해서만 이미지가 저장된다.(로드혹은 빌딩)-> 각각 로드,빌딩 png를 만들고 합치는것보다 JSON파일에 두가지 정보가 존재하면 좋겠다는 생각으로 아직 구현x
+- 여러가지 위젯을 각각 일일히 작성하였다.(FOR문 사용 안함, 이렇게 코드를 짜도 괜찮은지 모르겠다.)
+- 파이썬 문법 계속 까먹는다.
 
 
 ## 생각할 부분
