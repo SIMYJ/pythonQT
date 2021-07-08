@@ -16,12 +16,12 @@ pycharm-community
 ```
     
     
-### 3.생성된 가상환경 파이참 연결하기     
-<img src="https://i.imgur.com/NTN3Os1.gif" width="800px">
+## 3.생성된 가상환경 파이참 연결하기     
+<img src="https://i.imgur.com/NTN3Os1.gif" width="850px">
     
     
 
-### 4.추가로 설치할 패키지
+## 4.추가로 설치할 패키지
 ```
 pip install visidom  
 pip install torch   
@@ -40,7 +40,7 @@ pip install torchvision
 ## 추가 정보
 
 - matplotlib에 qt패키지 포함되어 있다.           
-<img src="https://i.imgur.com/c2r4yOm.png" width="500px">
+<img src="https://i.imgur.com/c2r4yOm.png" width="600px">
 
 
 - apt-get명령어[링크](https://luckeex.tistory.com/290)       
