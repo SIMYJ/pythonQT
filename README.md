@@ -7,15 +7,9 @@
 - GPL과 상업용 라이센스 중 하나를 선택할 수 있다.
 - 윈도우, 리눅스, macOS, 안드로이드, iOS를 지원한다.
 
-```
-qtdesigner실행 명령어 :  $designer
-
-```
-
 PyQt5가 현재 있는 최신 버전이고, PyQt4와 조금 차이가 있을 수 있으므로, PyQt5를 설치하시는 것을 권장합니다. 그리고 참고로, 파이썬[Python]의 경우 3.4이상 버전을 사용하셔야 합니다. 
 
 ```
-
 QT는 무엇인가??
 Qt는 컴퓨터 프로그래밍에서 GUI 프로그램 개발에 널리 쓰이는 크로스 플랫폼 프레임워크이다. 
 ```
@@ -25,7 +19,9 @@ QT정의 : https://ko.wikipedia.org/wiki/Qt_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A
 
 ### 1). Qt Designer
 - PyQt는 다른 Framework들과 다르게 시각적으로도 괜찮은 디자인을 보여주면서 **Qt Designer**라는 프로그램을 이용하여 프로그램을 손쉽게 설계할 수 있다는 장점이 있습니다.
-
+```
+qtdesigner실행 명령어 :  $designer
+```
 
 ### 2). 파이참(PyCharm)
 - 파이썬 개발에 가장 널리 사용되는 통합 개발 환경(IDE, Integrated Development Environment) 또는 개발 도구 이다.
@@ -37,7 +33,6 @@ QT정의 : https://ko.wikipedia.org/wiki/Qt_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A
 윈도우 파이참 설치 : https://www.crocus.co.kr/1659
 
 리눅스 파이참 실행 명령어 : $pycharm-community
-
 ```
 ### 3). 아나콘다(Ananconda)
 - 가상환경을 만들어 필요한 패키지들을 설치하고, 가상환경 안에서 자기 입맛에 맞게 개발환경을 조성할 수 있다.
