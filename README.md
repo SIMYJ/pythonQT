@@ -1,5 +1,8 @@
 # PythonQT
 
+---
+[가상환경 설정 및 개발환경 설치()](https://github.com/SIMYJ/pythonQT/tree/syj/%ED%8C%8C%EC%9D%B4%EC%B0%B8-%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95)
+---
 ## 1. PythonQT(PyQt) 소개
 - PythonQT는 Qt의 레이아웃에 Python의 코드를 연결하여 GUI 프로그램을 만들 수 있게 해주는 프레임워크이다.
 - PyQt는 C++의 Cross Platform GUI Framework인 Qt를 영국의 Riverbank Computing에서 Python 모듈로 변환해주는 툴을 만들어주며 시작되었습니다. 현재는 PyQt4버전과 PyQt5버전이 주로 사용되고 있습니다.
