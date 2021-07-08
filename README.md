@@ -1,7 +1,7 @@
 # PythonQT
 
 ---
-##[가상환경 설정 및 개발환경 설치 바로가기(파이참)](https://github.com/SIMYJ/pythonQT/tree/syj/%ED%8C%8C%EC%9D%B4%EC%B0%B8-%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95)
+## [가상환경 설정 및 개발환경 설치 바로가기(파이참)](https://github.com/SIMYJ/pythonQT/tree/syj/%ED%8C%8C%EC%9D%B4%EC%B0%B8-%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95)
 ---
 ## 1. PythonQT(PyQt) 소개
 - PythonQT는 Qt의 레이아웃에 Python의 코드를 연결하여 GUI 프로그램을 만들 수 있게 해주는 프레임워크이다.
