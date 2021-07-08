@@ -1,8 +1,5 @@
 # PythonQT
-
----
-## [가상환경 설정 및 개발환경 설치 바로가기(파이참)](https://github.com/SIMYJ/pythonQT/tree/syj/%ED%8C%8C%EC%9D%B4%EC%B0%B8-%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95)
----
+## 0.[가상환경 설정 및 개발환경 설치 바로가기(파이참)](https://github.com/SIMYJ/pythonQT/tree/syj/%ED%8C%8C%EC%9D%B4%EC%B0%B8-%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95)
 ## 1. PythonQT(PyQt) 소개
 - PythonQT는 Qt의 레이아웃에 Python의 코드를 연결하여 GUI 프로그램을 만들 수 있게 해주는 프레임워크이다.
 - PyQt는 C++의 Cross Platform GUI Framework인 Qt를 영국의 Riverbank Computing에서 Python 모듈로 변환해주는 툴을 만들어주며 시작되었습니다. 현재는 PyQt4버전과 PyQt5버전이 주로 사용되고 있습니다.
@@ -11,22 +8,12 @@
 - 윈도우, 리눅스, macOS, 안드로이드, iOS를 지원한다.
 
 ```
-리눅스 PythonQT(PyQt) 설치
-$ pip3 install pyqt5  
-$ sudo apt install python3-pyqt5  
-$ sudo apt install pyqt5-dev-tools
-$ sudo apt install qttools5-dev-tools
-
-https://reason1241.tistory.com/32
-
-
 qtdesigner실행 명령어 :  $designer
 
 ```
 
-
-
 PyQt5가 현재 있는 최신 버전이고, PyQt4와 조금 차이가 있을 수 있으므로, PyQt5를 설치하시는 것을 권장합니다. 그리고 참고로, 파이썬[Python]의 경우 3.4이상 버전을 사용하셔야 합니다. 
+
 ```
 
 QT는 무엇인가??
@@ -69,4 +56,6 @@ QT정의 : https://ko.wikipedia.org/wiki/Qt_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A
 - pyenv : pyenv의 경우 Python Version Manger임과 동시에 가상환경 기능을 플러그인 형태로 제공      
 
 파이썬 가상환경 : https://wikidocs.net/16402
+qt설치(우리는 이 방법 사용 안함)  https://reason1241.tistory.com/32
+
 
