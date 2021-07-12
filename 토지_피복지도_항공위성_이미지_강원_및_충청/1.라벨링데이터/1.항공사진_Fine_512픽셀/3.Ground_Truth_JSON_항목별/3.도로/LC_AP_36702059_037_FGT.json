@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "LC_AP_36702059_037_FGT_030",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5186" } },
+"features": [
+{ "type": "Feature", "properties": { "ANN_CD": 30, "ANN_NM": "도로" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 240732.287879063369473, 474296.150133128976449 ], [ 240730.070003209548304, 474294.803718322073109 ], [ 240730.070000000327127, 474296.150136264855973 ], [ 240732.287879063369473, 474296.150133128976449 ] ] ] } }
+]
+}

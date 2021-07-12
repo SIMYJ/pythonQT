@@ -1,0 +1,17 @@
+[
+	{
+		"img_id" : "LC_AP_36606003_011_1024",
+		"img_width" : 1024,
+		"img_height" : 1024,
+		"img_type" : "aerophoto",
+		"img_coordinate" : "EPSG:5186",
+		"coordinates" : "138828.245000005, 460978.775136264",
+		"img_resolution" : 0.51,
+		"img_time" : 2018,
+		"img_provided" : "국토지리정보원",
+		"ann_id" : "LC_AP_36606003_011_FGT_1024",
+		"ann_type" : "polygon",
+		"ann_file_type" : "tif",
+		"provided_nm" : "한국지능정보사회진흥원"
+	}
+]

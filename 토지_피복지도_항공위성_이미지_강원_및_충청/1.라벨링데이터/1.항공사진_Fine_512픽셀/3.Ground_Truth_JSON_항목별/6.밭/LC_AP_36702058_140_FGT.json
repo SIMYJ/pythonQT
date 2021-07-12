@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "LC_AP_36702058_140_FGT_060",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5186" } },
+"features": [
+{ "type": "Feature", "properties": { "ANN_CD": 60, "ANN_NM": "밭" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 239424.470000003144378, 472725.920500421430916 ], [ 239421.036279952793848, 472729.430136265989859 ], [ 239424.470000003144378, 472729.430136265989859 ], [ 239424.470000003144378, 472725.920500421430916 ] ] ] } }
+]
+}

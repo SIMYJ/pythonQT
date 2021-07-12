@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "LC_AP_36702058_120_FGT_080",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5186" } },
+"features": [
+{ "type": "Feature", "properties": { "ANN_CD": 80, "ANN_NM": "나지" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 240186.028818737337133, 472859.99013626127271 ], [ 240183.958988869213499, 472859.99013626127271 ], [ 240185.867199998989236, 472860.530800001404714 ], [ 240186.028818737337133, 472859.99013626127271 ] ] ] } }
+]
+}

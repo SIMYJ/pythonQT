@@ -1,0 +1,17 @@
+[
+	{
+		"img_id" : "LC_SN_36606_003",
+		"img_width" : 512,
+		"img_height" : 512,
+		"img_type" : "Sentinel-2",
+		"img_coordinate" : "EPSG:5186",
+		"coordinates" : "143495.339999999, 450149.670000001",
+		"img_resolution" : 10,
+		"img_time" : 2020,
+		"img_provided" : "ESA",
+		"ann_id" : "LC_SN_36606_003_FGT",
+		"ann_type" : "polygon",
+		"ann_file_type" : "tif",
+		"provided_nm" : "한국지능정보사회진흥원"
+	}
+]

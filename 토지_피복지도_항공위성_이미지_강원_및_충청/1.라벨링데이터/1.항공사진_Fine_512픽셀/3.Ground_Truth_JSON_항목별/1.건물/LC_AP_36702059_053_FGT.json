@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "LC_AP_36702059_053_FGT_010",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5186" } },
+"features": [
+{ "type": "Feature", "properties": { "ANN_CD": 10, "ANN_NM": "건물" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 241898.69417084887391, 474100.310129784687888 ], [ 241895.414721328561427, 474097.030687835474964 ], [ 241892.20898135486641, 474100.3101357522537 ], [ 241898.69417084887391, 474100.310129784687888 ] ] ] } }
+]
+}
