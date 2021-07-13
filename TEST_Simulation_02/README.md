@@ -7,23 +7,23 @@
 -   json annotation 클래스별 선택 기능
 
 
-## 3종기능 
+## 0. 3종기능 
 <img src = "https://i.imgur.com/bSzUcyI.gif" width="400">      
 
 
 
 ## 1.DATA SPOON
 
-<img src = "https://i.imgur.com/oPhMYA3.png" width="400">      
+<img src = "https://i.imgur.com/oPhMYA3.png" width="500">      
 
 ## 2. Simulation settings
        
-<img src = "https://i.imgur.com/wAW3GAo.png" width="400">           
+<img src = "https://i.imgur.com/wAW3GAo.png" width="500">           
 
 
 ## 2. Visualization
       
-<img src = "https://i.imgur.com/nSQ79uh.png" width="400">           
+<img src = "https://i.imgur.com/nSQ79uh.png" width="500">           
 
 
 
