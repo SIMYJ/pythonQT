@@ -44,9 +44,9 @@
           /1.라벨링데이터 
 	  	/2.항공사진_Fine_1024픽셀
                     /1.Ground_Truth_Tiff                  # 원래 tif파일만 존재했음 + 원본이미지에 대한 png파일 임의로  만듬
-	                	/2.Ground_Truth_JSON_전체              # 시용 안함
-                    /2.Ground_Truth_JSON_전체              # 전처리에 사용할 JSON파일 디렉토리
-                    /4.메타데이터                           # coordinates 계산을 위해 사용됨
+	            /2.Ground_Truth_JSON_전체              # 전처리에 사용할 JSON파일 디렉토리
+                    /3.Ground_Truth_JSON_항목별              # 시용 안함
+                    /4.메타데이터                           # 메타데이터 (coordinates 계산을 위해 사용됨)
                     /5.Ground_Truth_PNG_전체               # 전처리 작업 후 저장경로 디렉토리
 				
 	/TEST_03
