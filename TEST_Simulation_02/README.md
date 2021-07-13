@@ -21,7 +21,7 @@
 <img src = "https://i.imgur.com/wAW3GAo.png" width="500">           
 
 
-## 2. Visualization
+## 3. Visualization
       
 <img src = "https://i.imgur.com/nSQ79uh.png" width="500">           
 
