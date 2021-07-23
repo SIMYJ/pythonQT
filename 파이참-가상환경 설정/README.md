@@ -23,7 +23,7 @@ pycharm-community
 
 ## 4.추가로 설치할 패키지
 ```
-pip install visidom  
+pip install visdom  
 pip install torch   
 pip install torchvision 
 ```
