@@ -23,7 +23,7 @@
 
 ## 2. Visualization
       
-<img src = "https://i.imgur.com/nSQ79uh.png" width="400">           
+<img src = "https://github.com/SIMYJ/pythonQT/blob/syj/image/%EC%84%B1%EB%8A%A5%EC%A7%80%ED%91%9C_%EC%98%81%EC%83%81.gif?raw=true" width="400">           
 
 
 
