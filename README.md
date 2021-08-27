@@ -16,12 +16,12 @@
 - 
 |📒파일명|🔊설명|
 |----|----|
-|[TEST_01.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_01)| 그레이스케일 이미지에서 roads,buildings 추출 후 저장, 각 이미지 화면 출력 |
-|[TEST_02.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_02)| 1)json → png(라벨) 변환,2)png 색상 선택, 3)json annotation 클래스별 선택  |
-|[TEST_03.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_03)| 1)원천이미지출력 2)TEST_02의 3가지 기능 |
-|[TEST_Simulation_01.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_Simulation_01)| Simulation settings GUI  |
-|[TEST_Simulation_03.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_Simulation_03)| 1)DATA SPOON, 2)Simulation settings 3)Visualization 검증과정 영상 추가  |
-|[TEST_Simulation_04.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_Simulation_04)| Visdom연동 추가  |
+|[TEST_01.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_01)| 그레이스케일 이미지에서 roads,buildings 추출 후 저장, 각 이미지 화면 출력      |
+|[TEST_02.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_02)| 1)json → png(라벨) 변환,2)png 색상 선택, 3)json annotation 클래스별 선택       |
+|[TEST_03.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_03)| 1)원천이미지출력 2)TEST_02의 3가지 기능      |
+|[TEST_Simulation_01.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_Simulation_01)| Simulation settings GUI       |
+|[TEST_Simulation_03.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_Simulation_03)| 1)DATA SPOON,    2)Simulation settings    3)Visualization 검증과정 영상 추가       |
+|[TEST_Simulation_04.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_Simulation_04)| Visdom연동 추가       |
 
 
 
