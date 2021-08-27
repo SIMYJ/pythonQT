@@ -11,8 +11,9 @@
 
 
 ***코드 설명***
-- 파일을 SSD에 저장해놓음 경로 확인 바람
-- Simulation env 연동코드는 여기 없음 (드라이브 참조)
+- 파일을 이동식 드라이브에 저장해놓음 경로 확인 바람     
+- Simulation env 연동코드는 여기 없음 (드라이브 참조)      
+- 
 |📅날짜|📒파일명|🔊설명|
 |---|----|----|
 | 2021.xx.xx|[TEST_01.py](https://github.com/SIMYJ/pythonQT/tree/syj/TEST_01)| 그레이스케일 이미지에서 roads,buildings 추출 후 저장, 각 이미지 화면 출력 |
