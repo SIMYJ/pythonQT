@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>875</width>
+    <height>691</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>851</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>DATA SPOON</string>
+    </attribute>
+    <widget class="QListWidget" name="listWidget_Test">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>430</y>
+       <width>251</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::NoDragDrop</enum>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::MultiSelection</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>1st Item</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2nd Item</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3rd Item</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_picture02">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>20</y>
+       <width>401</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>                                             Img Label</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_picture01">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>401</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>                                          Img Label</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>430</y>
+       <width>171</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>클래스 </string>
+     </property>
+     <widget class="QCheckBox" name="groupchk_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>61</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>도로</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>건물</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>82</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>가로수</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주차장</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_1">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">rgb(85, 255, 127)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>60</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>80</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>논</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>밭</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>산림</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>160</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>나지</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_8">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>160</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_7">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>140</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>100</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">rgb(85, 255, 127)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_6">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>120</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="groupchk_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>비대상지</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_9">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>180</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>490</y>
+       <width>381</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="line_addItem">
+        <property name="text">
+         <string>Add Item</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_addItem">
+        <property name="text">
+         <string>add</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>530</y>
+       <width>381</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="btn_printItem">
+        <property name="text">
+         <string>Print</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_printMultiItems">
+        <property name="text">
+         <string>Print_Multi</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_removeItem">
+        <property name="text">
+         <string>Remove</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_clearItem">
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>450</y>
+       <width>381</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="line_insertItem">
+        <property name="text">
+         <string>Insert Item</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spin_insertRow"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_insertItem">
+        <property name="text">
+         <string>Insert</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="btn_Preprocessing">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>590</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>전처리</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Simulation settings</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>831</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>시뮬레이션 환경 설정</string>
+     </property>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>321</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Car</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>속도(단위:m/s)</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QSpinBox" name="spinBox"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>131</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>차종</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QListWidget" name="listWidget_Test_2">
+           <property name="dragDropMode">
+            <enum>QAbstractItemView::NoDragDrop</enum>
+           </property>
+           <property name="selectionMode">
+            <enum>QAbstractItemView::MultiSelection</enum>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+           <item>
+            <property name="text">
+             <string>경차</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>소형차</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>중형차</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>대형차</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>20</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>카메라구도</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QRadioButton" name="groupBox_rad3_10">
+           <property name="text">
+            <string>전방</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Pedestrian</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_15">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>속도(단위:m/s)</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_18">
+         <item>
+          <widget class="QSpinBox" name="spinBox_16"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>20</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>카메라구도</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <item>
+          <widget class="QRadioButton" name="groupBox_rad3_9">
+           <property name="text">
+            <string>전방</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>키(단위::cm)</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <item>
+          <widget class="QSpinBox" name="spinBox_13"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Drone</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_14">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>속도(단위:m/s)</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <widget class="QSpinBox" name="spinBox_11"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>고도(단위: m미터)</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <widget class="QSpinBox" name="spinBox_7"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_13">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>191</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>기종</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <item>
+          <widget class="QListWidget" name="listWidget_Test_3">
+           <property name="dragDropMode">
+            <enum>QAbstractItemView::NoDragDrop</enum>
+           </property>
+           <property name="selectionMode">
+            <enum>QAbstractItemView::MultiSelection</enum>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+           <item>
+            <property name="text">
+             <string>고정익(Fixed Wing)</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>회전익(Rotary Wing)</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>동축반전형(Co-axual)</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>다중 로터형</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>틸트로터형(Tilt-Rotor)</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_12">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>20</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>카메라 구도</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_11">
+         <item>
+          <widget class="QRadioButton" name="groupBox_rad3_8">
+           <property name="text">
+            <string>전방</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Airplane</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>고도(단위: m미터)</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_23">
+         <item>
+          <widget class="QSpinBox" name="spinBox_21">
+           <property name="value">
+            <number>10</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_17">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>20</y>
+          <width>131</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>카메라 구도</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_24">
+         <item>
+          <widget class="QRadioButton" name="groupBox_rad3_6">
+           <property name="text">
+            <string>전방</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="groupBox_rad3_7">
+           <property name="text">
+            <string>아래고정</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_18">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>171</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>기종</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_25">
+         <item>
+          <widget class="QListWidget" name="listWidget_Test_4">
+           <property name="dragDropMode">
+            <enum>QAbstractItemView::NoDragDrop</enum>
+           </property>
+           <property name="selectionMode">
+            <enum>QAbstractItemView::MultiSelection</enum>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+           <item>
+            <property name="text">
+             <string>비행기</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>글라이더</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>헬리콥터</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>제트기</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>전투기</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>여객기</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>정찰기</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_19">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>속도(단위:m/s)</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_26">
+         <item>
+          <widget class="QSpinBox" name="spinBox_24"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>200</y>
+        <width>201</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>날씨 설정</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad1">
+         <property name="text">
+          <string>맑음</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad3">
+         <property name="text">
+          <string>흐림</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad4">
+         <property name="text">
+          <string>비</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad4_2">
+         <property name="text">
+          <string>눈</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad4_3">
+         <property name="text">
+          <string>미세먼지</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>191</width>
+        <height>158</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>환경설정</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad1_2">
+         <property name="text">
+          <string>urban</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad3_2">
+         <property name="text">
+          <string>rural</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad4_4">
+         <property name="text">
+          <string>factory</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad4_5">
+         <property name="text">
+          <string>natural park (landscape)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad4_6">
+         <property name="text">
+          <string>beach(coast)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="groupBox_rad4_7">
+         <property name="text">
+          <string>etc.</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>360</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>실행</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string> Visualization</string>
+    </attribute>
+    <widget class="QLabel" name="label_visualization">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>801</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>                                                                                                    visualization_label</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>데이터 검증</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>12</y>
+       <width>671</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
